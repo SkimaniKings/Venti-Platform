@@ -1,0 +1,12 @@
+{
+  "name": "venti",
+  "private": true,
+  "scripts": {
+    "dev:web": "cd venti-web && npm run dev",
+    "dev:api": "cd venti-api && npm run dev",
+    "dev:all": "concurrently \"npm run dev:web\" \"npm run dev:api\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
