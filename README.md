@@ -92,7 +92,7 @@ Backend (venti-api)
 
 AI Service (venti-ai)
 
-🎨 Frontend Setup
+## 🎨 Frontend Setup
 bash
 Copy code
 cd venti-web
@@ -104,7 +104,7 @@ For production build:
 bash
 Copy code
 npm run build
-⚙️ Backend Setup
+## ⚙️ Backend Setup
 bash
 Copy code
 cd venti-api
@@ -112,7 +112,7 @@ npm install
 node index.js
 Backend runs on the specified PORT (default: 3000).
 
-🤖 AI Service Setup
+## 🤖 AI Service Setup
 bash
 Copy code
 cd venti-ai
@@ -122,7 +122,8 @@ Run with Uvicorn:
 bash
 Copy code
 uvicorn main:app --reload
-🌍 Deployment
+## 🌍 Deployment
+
 Frontend (Vercel)
 Connect GitHub repository
 
@@ -153,12 +154,12 @@ Copy code
 uvicorn main:app --host 0.0.0.0 --port $PORT
 Set backend/frontend environment variable for AI endpoint
 
-🔑 Environment Variables
+## 🔑 Environment Variables
 PORT → optional for backend/AI service
 
 OPENAI_API_KEY → required if using OpenAI GPT API
 
-📌 Usage
+## 📌 Usage
 Chatrooms → Join and chat with peers.
 
 Community Wall → Post & view anonymous thoughts.
@@ -171,7 +172,7 @@ Support Directory → Browse supporters or book professionals.
 
 Monetization → Donate or subscribe for premium.
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 Full voice-to-text with browser microphone.
 
 Smarter AI with deeper NLU (Natural Language Understanding).
@@ -184,5 +185,5 @@ Notifications for chat/posts.
 
 Premium analytics dashboards.
 
-📜 License
+## 📜 License
 MIT License © 2025 Simon Kimani
