@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from "react-route
 import Onboarding from "./pages/Onboarding";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import ChatRooms from "./pages/ChatRooms";
+import ChatRooms from "./pages/Chatrooms";
 import ChatRoom from "./pages/Chatroom";
 import Navbar from "./components/Navbar";
 import CommunityWall from "./pages/CommunityWall";
