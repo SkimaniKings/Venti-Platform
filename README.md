@@ -27,8 +27,6 @@ venti/
 ├─ venti-api/ # Node.js + Express + Socket.io backend
 └─ venti-ai/ # Python FastAPI AI assistant service
 
-markdown
-Copy code
 - **venti-web**: React + Vite frontend, implements UI for chatrooms, community wall, venting modes, AI assistant, monetization, and support directory.  
 - **venti-api**: Express backend with Socket.io for real-time communication (chatrooms, community wall posts, supporters data).  
 - **venti-ai**: Python FastAPI service for AI assistant and mood analysis.  
@@ -84,6 +82,7 @@ Clone the repository:
 bash
 git clone https://github.com/SkimaniKings/Venti-Platform.git
 cd Venti-Platform
+
 The project has three parts that can run independently:
 
 Frontend (venti-web)
